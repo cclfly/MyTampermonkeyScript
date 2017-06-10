@@ -4,7 +4,7 @@
 // @version      0.1.2
 // @description  哔哩哔哩动态鼠标移入封面显示大图
 // @author       cclfly
-// @match        http://www.bilibili.com/
+// @match        http://www.bilibili.com/*
 // @grant        none
 // ==/UserScript==
 // @require http://code.jquery.com/jquery-3.2.1.min.js
