@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         哔哩哔哩Html5播放器双击全屏
-// @namespace    http://tampermonkey.net/
+// @namespace    http://www.cclfly.cc/
 // @version      0.1
 // @description  哔哩哔哩Html5播放器双击全屏
 // @author       cclfly
