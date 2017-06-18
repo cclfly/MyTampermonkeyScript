@@ -17,7 +17,7 @@ $(function(){
     var timer = null;
     $("body").on("mouseover","#dyn_wnd img",function(e){
         clearTimeout(timer);
-        oDiv.find("img").attr("src",$(this).attr("src"));
+        oDiv.find("img").attr("src",$(this).attr("src").split("@")[0]);
         timer = setTimeout(function(){oDiv.show();},300);
     });
     $("body").on("mouseout","#dyn_wnd img",function(e){
