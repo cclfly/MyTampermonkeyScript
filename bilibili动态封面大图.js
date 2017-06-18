@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili动态封面大图
 // @namespace    http://www.cclfly.cc/
-// @version      0.1.2
+// @version      0.1.3
 // @description  哔哩哔哩动态鼠标移入封面显示大图
 // @author       cclfly
 // @match        http://www.bilibili.com/*
