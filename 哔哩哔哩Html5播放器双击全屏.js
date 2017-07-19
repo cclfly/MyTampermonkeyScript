@@ -4,7 +4,7 @@
 // @version      0.1.4
 // @description  哔哩哔哩Html5播放器双击全屏
 // @author       cclfly
-// @match        /^https?\:\/\/[\w]+.bilibili\.com/
+// @include        /^https?\:\/\/[\w]+.bilibili\.com/
 // @grant        none
 // ==/UserScript==
 // @require http://code.jquery.com/jquery-3.2.1.min.js
