@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili动态封面大图
 // @namespace    http://www.cclfly.cc/
-// @version      0.1.4
+// @version      0.1.5
 // @description  哔哩哔哩动态鼠标移入封面显示大图
 // @author       cclfly
 // @include        /^https?\:\/\/[\w]+.bilibili\.com/
@@ -15,12 +15,12 @@ $(function(){
     oDiv.find("img").css({width:"100%","border-radius":"2vmin"});
     oDiv.appendTo($("body"));
     var timer = null;
-    $("body").on("mouseover","#dyn_wnd img",function(e){
+    $("body").on("mouseover",".dyn_list a img",function(e){
         clearTimeout(timer);
         oDiv.find("img").attr("src",$(this).attr("src").split("@")[0]);
         timer = setTimeout(function(){oDiv.show();},300);
     });
-    $("body").on("mouseout","#dyn_wnd img",function(e){
+    $("body").on("mouseout",".dyn_list a img",function(e){
         clearTimeout(timer);
         timer = setTimeout(function(){oDiv.hide();},300);
     });
